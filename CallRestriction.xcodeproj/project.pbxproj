@@ -14,6 +14,7 @@
 		029DD8E31B1FFC720092B606 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 029DD8E21B1FFC720092B606 /* Images.xcassets */; };
 		029DD8E61B1FFC720092B606 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 029DD8E41B1FFC720092B606 /* LaunchScreen.xib */; };
 		029DD8F21B1FFC720092B606 /* CallRestrictionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 029DD8F11B1FFC720092B606 /* CallRestrictionTests.m */; };
+		029DD8FD1B1FFC980092B606 /* CallRestriction.m in Sources */ = {isa = PBXBuildFile; fileRef = 029DD8FC1B1FFC980092B606 /* CallRestriction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		029DD8EB1B1FFC720092B606 /* CallRestrictionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CallRestrictionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		029DD8F01B1FFC720092B606 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		029DD8F11B1FFC720092B606 /* CallRestrictionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CallRestrictionTests.m; sourceTree = "<group>"; };
+		029DD8FB1B1FFC980092B606 /* CallRestriction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CallRestriction.h; sourceTree = "<group>"; };
+		029DD8FC1B1FFC980092B606 /* CallRestriction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallRestriction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				029DD8DA1B1FFC720092B606 /* AppDelegate.m */,
 				029DD8DC1B1FFC720092B606 /* ViewController.h */,
 				029DD8DD1B1FFC720092B606 /* ViewController.m */,
+				029DD8FB1B1FFC980092B606 /* CallRestriction.h */,
+				029DD8FC1B1FFC980092B606 /* CallRestriction.m */,
 				029DD8DF1B1FFC720092B606 /* Main.storyboard */,
 				029DD8E21B1FFC720092B606 /* Images.xcassets */,
 				029DD8E41B1FFC720092B606 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				029DD8DE1B1FFC720092B606 /* ViewController.m in Sources */,
 				029DD8DB1B1FFC720092B606 /* AppDelegate.m in Sources */,
+				029DD8FD1B1FFC980092B606 /* CallRestriction.m in Sources */,
 				029DD8D81B1FFC720092B606 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

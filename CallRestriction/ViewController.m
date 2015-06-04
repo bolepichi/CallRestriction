@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import "CallRestriction.h"
+
 @interface ViewController ()
+
+@property (nonatomic,strong) CallRestriction *callRestriction;
 
 @end
 
@@ -18,6 +22,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
 }
+
+-(void)laiba{
+    NSLog(@"可以调用了");
+}
+- (IBAction)zuile:(id)sender {
+    [self.callRestriction play:nil];
+}
+
+
+
+- (CallRestriction *)callRestriction{
+    if (!_callRestriction) {
+        _callRestriction = [[CallRestriction alloc] init];
+        
+        [_callRestriction configRestriction:self restrictionAction:@selector(laiba) duration:.5];
+        
+    }
+    return _callRestriction;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
